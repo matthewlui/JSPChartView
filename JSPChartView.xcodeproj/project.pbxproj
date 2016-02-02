@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BE76411C5F948C00262606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE76401C5F948C00262606 /* AppDelegate.swift */; };
+		79BE76431C5F948C00262606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE76421C5F948C00262606 /* ViewController.swift */; };
+		79BE76461C5F948C00262606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BE76441C5F948C00262606 /* Main.storyboard */; };
+		79BE76481C5F948C00262606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BE76471C5F948C00262606 /* Assets.xcassets */; };
+		79BE764B1C5F948C00262606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BE76491C5F948C00262606 /* LaunchScreen.storyboard */; };
+		79BE76561C5F948C00262606 /* JSPChartViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE76551C5F948C00262606 /* JSPChartViewTests.swift */; };
+		79BE76611C5F948C00262606 /* JSPChartViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE76601C5F948C00262606 /* JSPChartViewUITests.swift */; };
+		79BE766F1C60755C00262606 /* JSPChartLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE766E1C60755C00262606 /* JSPChartLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79BE76521C5F948C00262606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BE76351C5F948C00262606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BE763C1C5F948C00262606;
+			remoteInfo = JSPChartView;
+		};
+		79BE765D1C5F948C00262606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BE76351C5F948C00262606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BE763C1C5F948C00262606;
+			remoteInfo = JSPChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79BE763D1C5F948C00262606 /* JSPChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE76401C5F948C00262606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79BE76421C5F948C00262606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79BE76451C5F948C00262606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79BE76471C5F948C00262606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BE764A1C5F948C00262606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79BE764C1C5F948C00262606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE76511C5F948C00262606 /* JSPChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE76551C5F948C00262606 /* JSPChartViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPChartViewTests.swift; sourceTree = "<group>"; };
+		79BE76571C5F948C00262606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE765C1C5F948C00262606 /* JSPChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE76601C5F948C00262606 /* JSPChartViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPChartViewUITests.swift; sourceTree = "<group>"; };
+		79BE76621C5F948C00262606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE766E1C60755C00262606 /* JSPChartLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSPChartLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BE763A1C5F948C00262606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE764E1C5F948C00262606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE76591C5F948C00262606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BE76341C5F948C00262606 = {
+			isa = PBXGroup;
+			children = (
+				79BE763F1C5F948C00262606 /* JSPChartView */,
+				79BE76541C5F948C00262606 /* JSPChartViewTests */,
+				79BE765F1C5F948C00262606 /* JSPChartViewUITests */,
+				79BE763E1C5F948C00262606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BE763E1C5F948C00262606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BE763D1C5F948C00262606 /* JSPChartView.app */,
+				79BE76511C5F948C00262606 /* JSPChartViewTests.xctest */,
+				79BE765C1C5F948C00262606 /* JSPChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BE763F1C5F948C00262606 /* JSPChartView */ = {
+			isa = PBXGroup;
+			children = (
+				79BE76401C5F948C00262606 /* AppDelegate.swift */,
+				79BE76421C5F948C00262606 /* ViewController.swift */,
+				79BE766E1C60755C00262606 /* JSPChartLayout.swift */,
+				79BE76441C5F948C00262606 /* Main.storyboard */,
+				79BE76471C5F948C00262606 /* Assets.xcassets */,
+				79BE76491C5F948C00262606 /* LaunchScreen.storyboard */,
+				79BE764C1C5F948C00262606 /* Info.plist */,
+			);
+			path = JSPChartView;
+			sourceTree = "<group>";
+		};
+		79BE76541C5F948C00262606 /* JSPChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BE76551C5F948C00262606 /* JSPChartViewTests.swift */,
+				79BE76571C5F948C00262606 /* Info.plist */,
+			);
+			path = JSPChartViewTests;
+			sourceTree = "<group>";
+		};
+		79BE765F1C5F948C00262606 /* JSPChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79BE76601C5F948C00262606 /* JSPChartViewUITests.swift */,
+				79BE76621C5F948C00262606 /* Info.plist */,
+			);
+			path = JSPChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BE763C1C5F948C00262606 /* JSPChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE76651C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartView" */;
+			buildPhases = (
+				79BE76391C5F948C00262606 /* Sources */,
+				79BE763A1C5F948C00262606 /* Frameworks */,
+				79BE763B1C5F948C00262606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPChartView;
+			productName = JSPChartView;
+			productReference = 79BE763D1C5F948C00262606 /* JSPChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79BE76501C5F948C00262606 /* JSPChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE76681C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartViewTests" */;
+			buildPhases = (
+				79BE764D1C5F948C00262606 /* Sources */,
+				79BE764E1C5F948C00262606 /* Frameworks */,
+				79BE764F1C5F948C00262606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BE76531C5F948C00262606 /* PBXTargetDependency */,
+			);
+			name = JSPChartViewTests;
+			productName = JSPChartViewTests;
+			productReference = 79BE76511C5F948C00262606 /* JSPChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79BE765B1C5F948C00262606 /* JSPChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE766B1C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartViewUITests" */;
+			buildPhases = (
+				79BE76581C5F948C00262606 /* Sources */,
+				79BE76591C5F948C00262606 /* Frameworks */,
+				79BE765A1C5F948C00262606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BE765E1C5F948C00262606 /* PBXTargetDependency */,
+			);
+			name = JSPChartViewUITests;
+			productName = JSPChartViewUITests;
+			productReference = 79BE765C1C5F948C00262606 /* JSPChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BE76351C5F948C00262606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = goldunderknees;
+				TargetAttributes = {
+					79BE763C1C5F948C00262606 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					79BE76501C5F948C00262606 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 79BE763C1C5F948C00262606;
+					};
+					79BE765B1C5F948C00262606 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 79BE763C1C5F948C00262606;
+					};
+				};
+			};
+			buildConfigurationList = 79BE76381C5F948C00262606 /* Build configuration list for PBXProject "JSPChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BE76341C5F948C00262606;
+			productRefGroup = 79BE763E1C5F948C00262606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BE763C1C5F948C00262606 /* JSPChartView */,
+				79BE76501C5F948C00262606 /* JSPChartViewTests */,
+				79BE765B1C5F948C00262606 /* JSPChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BE763B1C5F948C00262606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE764B1C5F948C00262606 /* LaunchScreen.storyboard in Resources */,
+				79BE76481C5F948C00262606 /* Assets.xcassets in Resources */,
+				79BE76461C5F948C00262606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE764F1C5F948C00262606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE765A1C5F948C00262606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BE76391C5F948C00262606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE76431C5F948C00262606 /* ViewController.swift in Sources */,
+				79BE76411C5F948C00262606 /* AppDelegate.swift in Sources */,
+				79BE766F1C60755C00262606 /* JSPChartLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE764D1C5F948C00262606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE76561C5F948C00262606 /* JSPChartViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE76581C5F948C00262606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE76611C5F948C00262606 /* JSPChartViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BE76531C5F948C00262606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BE763C1C5F948C00262606 /* JSPChartView */;
+			targetProxy = 79BE76521C5F948C00262606 /* PBXContainerItemProxy */;
+		};
+		79BE765E1C5F948C00262606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BE763C1C5F948C00262606 /* JSPChartView */;
+			targetProxy = 79BE765D1C5F948C00262606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79BE76441C5F948C00262606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BE76451C5F948C00262606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79BE76491C5F948C00262606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BE764A1C5F948C00262606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79BE76631C5F948C00262606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79BE76641C5F948C00262606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BE76661C5F948C00262606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79BE76671C5F948C00262606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79BE76691C5F948C00262606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPChartView.app/JSPChartView";
+			};
+			name = Debug;
+		};
+		79BE766A1C5F948C00262606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPChartView.app/JSPChartView";
+			};
+			name = Release;
+		};
+		79BE766C1C5F948C00262606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPChartView;
+			};
+			name = Debug;
+		};
+		79BE766D1C5F948C00262606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldunderknees.JSPChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BE76381C5F948C00262606 /* Build configuration list for PBXProject "JSPChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE76631C5F948C00262606 /* Debug */,
+				79BE76641C5F948C00262606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BE76651C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE76661C5F948C00262606 /* Debug */,
+				79BE76671C5F948C00262606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79BE76681C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE76691C5F948C00262606 /* Debug */,
+				79BE766A1C5F948C00262606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79BE766B1C5F948C00262606 /* Build configuration list for PBXNativeTarget "JSPChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE766C1C5F948C00262606 /* Debug */,
+				79BE766D1C5F948C00262606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BE76351C5F948C00262606 /* Project object */;
+}
